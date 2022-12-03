@@ -1,0 +1,64 @@
+{
+	"blog": [
+		{
+			"id": "3423232",
+			"user": {
+				"id": "23143",
+				"name": "Jimmy Carter",
+				"username": "JimmyC"
+			},
+			"title": "Noteworthy technology acquisitions 2021",
+			"description": "Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.",
+			"modified": "2009-03-17T03:53:36Z",
+			"published": true,
+			"tags": ["president", "usa", "john", "quincy", "adams"],
+			"img": "/img/image-4.jpg",
+			"url": "/"
+		},
+		{
+			"id": "3423232",
+			"user": {
+				"id": "23143",
+				"name": "Jimmy Carter",
+				"username": "JimmyC"
+			},
+			"title": "Noteworthy technology acquisitions 2021",
+			"description": "Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.",
+			"modified": "2009-03-17T03:53:36Z",
+			"published": true,
+			"tags": ["president", "usa", "john", "quincy", "adams"],
+			"img": "/img/image-4.jpg",
+			"url": "/"
+		},
+		{
+			"id": "3423232",
+			"user": {
+				"id": "23143",
+				"name": "Jimmy Carter",
+				"username": "JimmyC"
+			},
+			"title": "Noteworthy technology acquisitions 2021",
+			"description": "Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.",
+			"modified": "2009-03-17T03:53:36Z",
+			"published": true,
+			"tags": ["president", "usa", "john", "quincy", "adams"],
+			"img": "/img/image-4.jpg",
+			"url": "/"
+		},
+		{
+			"id": "3423232",
+			"user": {
+				"id": "23143",
+				"name": "Jimmy Carter",
+				"username": "JimmyC"
+			},
+			"title": "Noteworthy technology acquisitions 2021",
+			"description": "Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.",
+			"modified": "2009-03-17T03:53:36Z",
+			"published": true,
+			"tags": ["president", "usa", "john", "quincy", "adams"],
+			"img": "/img/image-4.jpg",
+			"url": "/"
+		}
+	]
+}
