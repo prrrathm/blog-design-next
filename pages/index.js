@@ -34,7 +34,7 @@ export default function Home() {
 										{items.description}
 									</p>
 									<div>
-										<Link href={items.tags} className="bg-[#92ca49] text-gray-50 rounded-lg w-auto px-2 py-1 font-semibold text-lg inline-flex justify-center items-center">
+										<Link href={'blog/'+items.id} className="bg-[#92ca49] text-gray-50 rounded-lg w-auto px-2 py-1 font-semibold text-lg inline-flex justify-center items-center">
 											Read More
 											<RiArrowRightSLine />
 										</Link>
