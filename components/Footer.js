@@ -47,7 +47,7 @@ const Footer = () => {
 			</div>
 			<div className="flex sm:flex-row flex-col gap-20 justify-center sm:items-center ">
 				<div className="flex flex-col">
-					<h2 className="text-blue-600 font-bold  ">Contact Us</h2>
+					<h2 className="text-[#92ca49] font-bold  ">Contact Us</h2>
 					<p>Phone: +91-9654548666</p>
 					<p>skype : retouchingvisuals</p>
 					<p>Email: info@visualsclipping.com</p>
@@ -61,7 +61,7 @@ const Footer = () => {
 									key={iterator}
 									className="flex flex-row items-center cursor-pointer hover:font-black"
 								>
-									<ChevronRightIcon className="h-4 inline-block text-blue-600" />
+									<ChevronRightIcon className="h-4 inline-block text-[#92ca49]" />
 									<Link href={item.route}>
 										<div>{item.service}</div>
 									</Link>
@@ -74,19 +74,19 @@ const Footer = () => {
 					{/* <h1 className="text-gray-100 font-bold text-lg">Useful Links</h1> */}
 					<ul className="flex flex-col gap-2 font-medium">
 						<li className="cursor-pointer">
-							<ChevronRightIcon className="h-4 inline-block text-blue-600 hover:font-black" />
+							<ChevronRightIcon className="h-4 inline-block text-[#92ca49] hover:font-black" />
 							<Link href="/about">About Us</Link>
 						</li>
 						<li className="cursor-pointer">
-							<ChevronRightIcon className="h-4 inline-block text-blue-600 hover:font-black" />
+							<ChevronRightIcon className="h-4 inline-block text-[#92ca49] hover:font-black" />
 							<Link href="/contact">Contact Us</Link>
 						</li>
 						<li className="cursor-pointer">
-							<ChevronRightIcon className="h-4 inline-block text-blue-600 hover:font-black" />
+							<ChevronRightIcon className="h-4 inline-block text-[#92ca49] hover:font-black" />
 							<Link href="/privacy">Privacy Policy</Link>
 						</li>
 						<li className="cursor-pointer">
-							<ChevronRightIcon className="h-4 inline-block text-blue-600 hover:font-black" />
+							<ChevronRightIcon className="h-4 inline-block text-[#92ca49] hover:font-black" />
 							<Link href="/terms-and-conditions">Terms & Conditions</Link>
 						</li>
 					</ul>
@@ -99,14 +99,14 @@ const Footer = () => {
 					target="_blank"
 					rel="noreferrer"
 				>
-					<BsLinkedin className="h-8 w-8 text-blue-600 hover:text-gray-300 cursor-pointer" />
+					<BsLinkedin className="h-8 w-8 text-[#92ca49] hover:text-gray-300 cursor-pointer" />
 				</a>
 				<a
 					href="https://www.facebook.com/VisualsClipping-105658197458565"
 					target="_blank"
 					rel="noreferrer"
 				>
-					<BsFacebook className="h-8 w-8 text-blue-600 hover:text-gray-300 cursor-pointer" />
+					<BsFacebook className="h-8 w-8 text-[#92ca49] hover:text-gray-300 cursor-pointer" />
 				</a>
 			</div>
 		</section>

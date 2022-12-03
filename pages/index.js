@@ -14,13 +14,13 @@ export default function Home() {
 			</Head>
 
 			<main className="flex flex-col">
-				<div className="h-[40vh] flex flex-col justify-center items-center bg-blue-800 text-gray-50">
+				<div className="h-[40vh] flex flex-col justify-center items-center bg-[#92ca49] text-gray-50">
 					<h1 className="text-6xl">Welcome to Our Blog</h1>
 				</div>
 				<div className="container min-h-[100vh] flex flex-col py-10 items-center gap-5">
 					{blogData["blog"].map((items, iter) => {
 						return (
-							<div class="flex flex-col items-center bg-white border-2 rounded-lg shadow-xl md:flex-row md:max-w-xl hover:bg-gray-50 cursor-pointer w-[70vw]" key={iter}>
+							<div class="flex flex-col items-center bg-white border-2 rounded-lg shadow-xl md:flex-row md:max-w-4xl hover:bg-gray-50 cursor-pointer" key={iter}>
 								<img
 									class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
 									src={items.img}
@@ -30,11 +30,11 @@ export default function Home() {
 									<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">
 										{items.title}
 									</h5>
-									<p class="mb-3 font-normal text-gray-700">
+									<p class="mb-3 font-normal text-gray-700 text-justify">
 										{items.description}
 									</p>
 									<div>
-										<Link href={items.url} className="bg-blue-600 text-gray-50 rounded-lg w-auto px-2 py-1 font-semibold text-lg inline-flex justify-center items-center">
+										<Link href={items.tags} className="bg-[#92ca49] text-gray-50 rounded-lg w-auto px-2 py-1 font-semibold text-lg inline-flex justify-center items-center">
 											Read More
 											<RiArrowRightSLine />
 										</Link>

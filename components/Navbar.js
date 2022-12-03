@@ -140,12 +140,12 @@ export const Navbar = () => {
 				<input
 					type="text"
 					placeholder="Email Address*"
-					className="border border-gray-100 p-2 !drop-shadow-sm placeholder:text-gray-300"
+					className="border border-gray-100 p-2 !drop-shadow-lg placeholder:text-gray-300 rounded-md"
 					name="email"
 					required
 				/>
 				<button
-					className="bg-blue-600 text-gray-50 px-2 py-1 hover:bg-gray-50 hover:text-blue-600 transition-[300ms] border-2 border-blue-600 font-black rounded-md"
+					className="bg-green-600 text-gray-50 px-2 py-1 hover:bg-gray-50 hover:text-green-600 transition-[300ms] border-2 border-green-600 font-semibold rounded-md"
 					type="submit"
 				>
 					Get Started
