@@ -30,7 +30,7 @@ export default function Home() {
 									<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">
 										{items.title}
 									</h5>
-									<p class="mb-3 font-normal text-gray-700 text-justify">
+									<p class="mb-3 font-normal text-gray-700">
 										{items.description}
 									</p>
 									<div>
