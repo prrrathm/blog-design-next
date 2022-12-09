@@ -9,7 +9,6 @@ const Bid = () => {
 	// const { bid } = router.query;
 	// console.log()
 	const obj = blogData?.blog.find((o) => o.id == "" + router.query.Bid);
-
 	return (
 		<div className="min-h-[100vh] flex flex-col md:flex-row gap-20 py-32 justify-around items-start">
 			<div className="h-[15vh] w-[100%] bg-[#92ca49] absolute top-0 inset-x-0"></div>
@@ -42,20 +41,19 @@ const Bid = () => {
 							// when working with real data
 							// if (router.query.Bid !== items.id) {
 							return (
-								<div
-									class="flex flex-col md:items-center bg-white border-2 rounded-lg md:max-w-4xl hover:bg-gray-50 cursor-pointer text-sm p-2 mx-20 md:m-0 overflow-hidden"
-									key={iter}
-								>
-									<h5 class="mb-2 font-bold tracking-tight text-gray-900 basis-1/4">
-										{items.title}
-									</h5>
-									{/* <img
+								<Link href={"/blog/" + items.id} key={iter}>
+									<div className="flex flex-col md:items-center bg-white border-2 rounded-lg md:max-w-4xl hover:bg-gray-50 cursor-pointer text-sm p-2 mx-20 md:m-0 overflow-hidden">
+										<h5 className="mb-2 font-bold tracking-tight text-gray-900 basis-1/4">
+											{items.title}
+										</h5>
+										{/* <img
 										class="basis-1/2"
 										src={items.img}
 										alt=""
 									/> */}
-									<p className="">{items.description}</p>
-								</div>
+										<p className="">{items.description}</p>
+									</div>
+								</Link>
 							);
 						}
 						// }

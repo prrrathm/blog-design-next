@@ -20,17 +20,17 @@ export default function Home() {
 				<div className="container min-h-[100vh] flex flex-col py-10 items-center gap-5">
 					{blogData["blog"].map((items, iter) => {
 						return (
-							<div class="flex flex-col items-center bg-white border-2 rounded-lg shadow-xl md:flex-row md:max-w-4xl hover:bg-gray-50 cursor-pointer" key={iter}>
+							<div className="flex flex-col items-center bg-white border-2 rounded-lg shadow-xl md:flex-row md:max-w-4xl hover:bg-gray-50 cursor-pointer" key={iter}>
 								<img
-									class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
+									className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
 									src={items.img}
 									alt=""
 								/>
-								<div class="flex flex-col justify-between p-4 leading-normal">
-									<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">
+								<div className="flex flex-col justify-between p-4 leading-normal">
+									<h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">
 										{items.title}
 									</h5>
-									<p class="mb-3 font-normal text-gray-700">
+									<p className="mb-3 font-normal text-gray-700">
 										{items.description}
 									</p>
 									<div>
